@@ -48,7 +48,7 @@ export default function Typebox(props) {
         }
         //if try blocks error then try get terminated and catch is executed
         catch (error) {
-            console.log("there is error to fetch logo", e)
+            console.log("there is error to fetch logo", error)
             {
                 <div>
                 <h3 ><b>Website URL should contain protocol://domian.topleveldomain ex:<em>https://example.com</em>or<em>http://example.com</em></b></h3>
