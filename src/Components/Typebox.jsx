@@ -40,7 +40,7 @@ export default function Typebox(props) {
             //url object taking user website url name 
             let domain = new URL(formData.inputWebsiteUrl).hostname;
             //axips calls get method and specifies its url and implements the required url
-            let response = await axios.get(`https://logo.clearbit.com/${domain}`);
+            let response = await axios.get(`https://img.logo.dev/${domain}?token=pk_bjK4BAr9THKkYM9C1hQsTQ`);
             //state function is loaded by logo
             setLogo(response.config.url);
             //writes the data on linker with name url and logo
